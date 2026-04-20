@@ -3,46 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Photo Gallery | Portfolio Project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Interstellar Gallery | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Interactive Experience Gallery</h1>
-        <p>A demonstration of DOM manipulation and event handling</p>
+    <header class="gallery-header">
+        <h1>Interstellar Experience</h1>
+        <p>Explore the cosmos by hovering over the previews below</p>
     </header>
 
     <div id="image">
         Hover over an image below to display here.
     </div>
 
-    <div class="gallery-container">
-        
+    <div class="preview-container">
         <img class="preview" 
-             alt="Serene Mountain Landscape" 
-             src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b" 
+             alt="Deep Space Nebula" 
+             src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9" 
              onmouseover="upDate(this)" 
              onmouseleave="unDo()">
 
         <img class="preview" 
-             alt="Urban City Lights at Night" 
-             src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df" 
+             alt="The Milky Way Core" 
+             src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a" 
              onmouseover="upDate(this)" 
              onmouseleave="unDo()">
 
         <img class="preview" 
-             alt="Coastal Ocean Waves" 
-             src="https://images.unsplash.com/photo-1505118380757-91f5f45d8de4" 
+             alt="Supernova Remnant" 
+             src="https://images.unsplash.com/photo-1543722530-d2c3201371e7" 
              onmouseover="upDate(this)" 
              onmouseleave="unDo()">
 
         <img class="preview" 
-             alt="Dense Tropical Forest" 
-             src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" 
+             alt="Andromeda Horizon" 
+             src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564" 
              onmouseover="upDate(this)" 
              onmouseleave="unDo()">
-             
     </div>
 
     <script src="script.js"></script>
