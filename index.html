@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="thumbnails">
+        <img class="preview" 
+             alt="Majestic Mountains" 
+             src="https://picsum.photos/id/10/800/600" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+
+        <img class="preview" 
+             alt="Calm Waters" 
+             src="https://picsum.photos/id/25/800/600" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+
+        <img class="preview" 
+             alt="Forest Path" 
+             src="https://picsum.photos/id/28/800/600" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
